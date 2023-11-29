@@ -6,3 +6,8 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8671/eureka}
+okta:
+  oauth2:
+    audience: api://default
+    issuer: https://dev-68650560.okta.com/oauth2/default
+      
